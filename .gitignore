@@ -102,3 +102,17 @@ dist
 
 # TernJS port file
 .tern-port
+
+NetRemoutingLaba/.vs/
+
+NetRemoutingLaba/Client/bin/
+
+NetRemoutingLaba/Client/obj/
+
+NetRemoutingLaba/Host/bin/
+
+NetRemoutingLaba/Host/obj/
+
+NetRemoutingLaba/ServerObj/bin/
+
+NetRemoutingLaba/ServerObj/obj/
