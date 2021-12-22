@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79f7e71e-00f8-4455-8dbf-8e9eafb018e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/RmiProject/src/operation/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RmiProject/src/operation/MessageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RmiProject/src/registration/RunServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/LabaTwo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/src/operation/TovarOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/src/operation/TovarOperationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/src/registration/PublicWS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/src/service/endpoint/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/src/service/endpoint/TovarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/src/types/ListOfTovar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/src/types/Tovar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwo/src/types/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/LabaTwoClient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/out/production/LabaTwoClient/client/RunClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/out/production/LabaTwoClient/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/GetMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/GetMessageResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/MessageServiceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/ObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/package-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/base/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/client/RunClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/GetAllTovar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/GetAllTovarResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/GetMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/GetMessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/GetSumOfTovar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/GetSumOfTovarResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/MessageServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/SetNewTovar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/SetNewTovarResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/TovarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/TovarServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/service/endpoint/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/types/ListOfTovar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/types/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/types/Tovar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LabaTwoClient/src/types/package-info.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="22YtN4jPUEPaA47axREDPZDs5ih" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79f7e71e-00f8-4455-8dbf-8e9eafb018e2" name="Changes" comment="" />
+      <created>1640026309507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640026309507</updated>
+      <workItem from="1640026314642" duration="254000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
