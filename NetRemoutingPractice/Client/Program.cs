@@ -1,4 +1,6 @@
-﻿namespace Client
+﻿using System;
+
+namespace Client
 {
     public class Program
     {
@@ -25,6 +27,11 @@
             Console.ReadLine();
             */
             TimeClient timeClient = new TimeClient();
+            Console.WriteLine("Время: ");
+            timeClient.Start();
+            Console.WriteLine("Нажмите чтобы сохранить время в файл");
+            timeClient.SaveConnectTimeWithServer();
+
             timeClient.GetSumSquare();
             timeClient.GetSubstringString();
         }
