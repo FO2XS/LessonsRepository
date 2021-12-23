@@ -1,29 +1,28 @@
 package operation;
 
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.List;
+
+import database.PgProvider;
 import types.Tovar;
 
 public class TovarOperationImpl implements TovarOperation{
 
     static List<Tovar> lstTovar = new ArrayList<Tovar>();
+    PgProvider provider = new PgProvider();
 
-    static{
-        lstTovar.add(new Tovar("Товар1", 10, 100));
-        lstTovar.add(new Tovar("Товар2", 20, 200));
-        lstTovar.add(new Tovar("Товар3", 30, 300));
-        lstTovar.add(new Tovar("Товар4", 40, 400));
-    }
 
     @Override
     public List<Tovar> getListOfTovar() {
+        lstTovar = provider.getProducts();
         return lstTovar;
     }
 
     @Override
     public List<Tovar> addNewTovar(Tovar tovar){
-        lstTovar.add(tovar);
-        return lstTovar;
+        provider.addProduct(tovar);
+        return getListOfTovar();
     }
 
     @Override
@@ -34,5 +33,10 @@ public class TovarOperationImpl implements TovarOperation{
             sum += tovar.getSumma();
 
         return sum;
+    }
+
+    @Override
+    public boolean authentication(String login, String password) {
+        return provider.authentication(login, password);
     }
 }

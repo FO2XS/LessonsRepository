@@ -9,5 +9,6 @@ public class PublicWS {
         Endpoint.publish("http://localhost:8080/ws01/MessageService", new MessageService());
         Endpoint.publish("http://localhost:8080/ws02/TovarService", new TovarService());
         System.out.println("Server is running");
+        System.out.println("Hello");
     }
 }

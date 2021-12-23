@@ -21,23 +21,11 @@ import types.Tovar;
  */
 @WebService(name = "TovarService", targetNamespace = "http://endpoint.service/")
 @XmlSeeAlso({
-    service.endpoint.ObjectFactory.class,
+    ObjectFactory.class,
     types.ObjectFactory.class
 })
 public interface TovarService {
 
-
-    /**
-     * 
-     * @return
-     *     returns int
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getSumOfTovar", targetNamespace = "http://endpoint.service/", className = "service.endpoint.GetSumOfTovar")
-    @ResponseWrapper(localName = "getSumOfTovarResponse", targetNamespace = "http://endpoint.service/", className = "service.endpoint.GetSumOfTovarResponse")
-    @Action(input = "http://endpoint.service/TovarService/getSumOfTovarRequest", output = "http://endpoint.service/TovarService/getSumOfTovarResponse")
-    public int getSumOfTovar();
 
     /**
      * 
@@ -53,6 +41,18 @@ public interface TovarService {
 
     /**
      * 
+     * @return
+     *     returns int
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getSumOfTovar", targetNamespace = "http://endpoint.service/", className = "service.endpoint.GetSumOfTovar")
+    @ResponseWrapper(localName = "getSumOfTovarResponse", targetNamespace = "http://endpoint.service/", className = "service.endpoint.GetSumOfTovarResponse")
+    @Action(input = "http://endpoint.service/TovarService/getSumOfTovarRequest", output = "http://endpoint.service/TovarService/getSumOfTovarResponse")
+    public int getSumOfTovar();
+
+    /**
+     * 
      * @param arg0
      * @return
      *     returns types.ListOfTovar
@@ -65,5 +65,23 @@ public interface TovarService {
     public ListOfTovar setNewTovar(
         @WebParam(name = "arg0", targetNamespace = "")
         Tovar arg0);
+
+    /**
+     * 
+     * @param arg1
+     * @param arg0
+     * @return
+     *     returns boolean
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "authentication", targetNamespace = "http://endpoint.service/", className = "service.endpoint.Authentication")
+    @ResponseWrapper(localName = "authenticationResponse", targetNamespace = "http://endpoint.service/", className = "service.endpoint.AuthenticationResponse")
+    @Action(input = "http://endpoint.service/TovarService/authenticationRequest", output = "http://endpoint.service/TovarService/authenticationResponse")
+    public boolean authentication(
+        @WebParam(name = "arg0", targetNamespace = "")
+        String arg0,
+        @WebParam(name = "arg1", targetNamespace = "")
+        String arg1);
 
 }

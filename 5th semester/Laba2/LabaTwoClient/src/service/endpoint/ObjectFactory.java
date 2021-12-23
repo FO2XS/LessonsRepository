@@ -24,10 +24,12 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
+    private final static QName _AuthenticationResponse_QNAME = new QName("http://endpoint.service/", "authenticationResponse");
     private final static QName _GetSumOfTovar_QNAME = new QName("http://endpoint.service/", "getSumOfTovar");
     private final static QName _SetNewTovar_QNAME = new QName("http://endpoint.service/", "setNewTovar");
     private final static QName _SetNewTovarResponse_QNAME = new QName("http://endpoint.service/", "setNewTovarResponse");
     private final static QName _GetSumOfTovarResponse_QNAME = new QName("http://endpoint.service/", "getSumOfTovarResponse");
+    private final static QName _Authentication_QNAME = new QName("http://endpoint.service/", "authentication");
     private final static QName _GetAllTovarResponse_QNAME = new QName("http://endpoint.service/", "getAllTovarResponse");
     private final static QName _GetAllTovar_QNAME = new QName("http://endpoint.service/", "getAllTovar");
 
@@ -36,6 +38,14 @@ public class ObjectFactory {
      * 
      */
     public ObjectFactory() {
+    }
+
+    /**
+     * Create an instance of {@link AuthenticationResponse }
+     * 
+     */
+    public AuthenticationResponse createAuthenticationResponse() {
+        return new AuthenticationResponse();
     }
 
     /**
@@ -79,11 +89,28 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link Authentication }
+     * 
+     */
+    public Authentication createAuthentication() {
+        return new Authentication();
+    }
+
+    /**
      * Create an instance of {@link GetAllTovarResponse }
      * 
      */
     public GetAllTovarResponse createGetAllTovarResponse() {
         return new GetAllTovarResponse();
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AuthenticationResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://endpoint.service/", name = "authenticationResponse")
+    public JAXBElement<AuthenticationResponse> createAuthenticationResponse(AuthenticationResponse value) {
+        return new JAXBElement<AuthenticationResponse>(_AuthenticationResponse_QNAME, AuthenticationResponse.class, null, value);
     }
 
     /**
@@ -120,6 +147,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://endpoint.service/", name = "getSumOfTovarResponse")
     public JAXBElement<GetSumOfTovarResponse> createGetSumOfTovarResponse(GetSumOfTovarResponse value) {
         return new JAXBElement<GetSumOfTovarResponse>(_GetSumOfTovarResponse_QNAME, GetSumOfTovarResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Authentication }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://endpoint.service/", name = "authentication")
+    public JAXBElement<Authentication> createAuthentication(Authentication value) {
+        return new JAXBElement<Authentication>(_Authentication_QNAME, Authentication.class, null, value);
     }
 
     /**

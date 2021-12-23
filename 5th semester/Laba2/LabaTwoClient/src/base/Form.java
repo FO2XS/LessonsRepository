@@ -18,7 +18,7 @@ public class Form extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        setScene(GuiScene.DEF);
+        setScene(GuiScene.AUTH);
     }
 
     public static void setScene(GuiScene newScene) throws IOException {
@@ -29,6 +29,8 @@ public class Form extends Application {
             break;
             case ADD: root = FXMLLoader.load(Form.class.getResource("AddScene.fxml"));
             break;
+            case AUTH: root = FXMLLoader.load(Form.class.getResource("AuthScene.fxml"));
+                break;
         }
 
         scene = new Scene(root);

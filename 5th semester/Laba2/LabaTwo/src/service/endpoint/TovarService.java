@@ -40,4 +40,9 @@ public class TovarService {
     public int getSumOfTovar(){
         return obj.getSumOfTovar();
     }
+
+    @WebMethod()
+    public boolean authentication(String login, String password){
+        return obj.authentication(login, password);
+    }
 }
