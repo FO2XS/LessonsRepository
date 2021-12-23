@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://endpoint.service/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="TovarServiceService" targetNamespace="http://endpoint.service/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/ws02/TovarService?xsd=1" namespace="http://types/" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/ws02/TovarService?xsd=2" namespace="http://endpoint.service/" />
+    </xsd:schema>
+  </types>
+  <message name="getSumOfTovar">
+    <part name="parameters" element="tns:getSumOfTovar" />
+  </message>
+  <message name="getSumOfTovarResponse">
+    <part name="parameters" element="tns:getSumOfTovarResponse" />
+  </message>
+  <message name="setNewTovar">
+    <part name="parameters" element="tns:setNewTovar" />
+  </message>
+  <message name="setNewTovarResponse">
+    <part name="parameters" element="tns:setNewTovarResponse" />
+  </message>
+  <message name="getAllTovar">
+    <part name="parameters" element="tns:getAllTovar" />
+  </message>
+  <message name="getAllTovarResponse">
+    <part name="parameters" element="tns:getAllTovarResponse" />
+  </message>
+  <portType name="TovarService">
+    <operation name="getSumOfTovar">
+      <input wsam:Action="http://endpoint.service/TovarService/getSumOfTovarRequest" message="tns:getSumOfTovar" />
+      <output wsam:Action="http://endpoint.service/TovarService/getSumOfTovarResponse" message="tns:getSumOfTovarResponse" />
+    </operation>
+    <operation name="setNewTovar">
+      <input wsam:Action="http://endpoint.service/TovarService/setNewTovarRequest" message="tns:setNewTovar" />
+      <output wsam:Action="http://endpoint.service/TovarService/setNewTovarResponse" message="tns:setNewTovarResponse" />
+    </operation>
+    <operation name="getAllTovar">
+      <input wsam:Action="http://endpoint.service/TovarService/getAllTovarRequest" message="tns:getAllTovar" />
+      <output wsam:Action="http://endpoint.service/TovarService/getAllTovarResponse" message="tns:getAllTovarResponse" />
+    </operation>
+  </portType>
+  <binding name="TovarServicePortBinding" type="tns:TovarService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getSumOfTovar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="setNewTovar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getAllTovar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="TovarServiceService">
+    <port name="TovarServicePort" binding="tns:TovarServicePortBinding">
+      <soap:address location="http://localhost:8080/ws02/TovarService" />
+    </port>
+  </service>
+</definitions>

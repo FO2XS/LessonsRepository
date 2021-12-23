@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://endpoint.service/" xmlns:ns1="http://types/" targetNamespace="http://endpoint.service/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8080/ws02/TovarService?xsd=1" namespace="http://types/" />
+  <xs:element name="getAllTovar" type="tns:getAllTovar" />
+  <xs:element name="getAllTovarResponse" type="tns:getAllTovarResponse" />
+  <xs:element name="getSumOfTovar" type="tns:getSumOfTovar" />
+  <xs:element name="getSumOfTovarResponse" type="tns:getSumOfTovarResponse" />
+  <xs:element name="setNewTovar" type="tns:setNewTovar" />
+  <xs:element name="setNewTovarResponse" type="tns:setNewTovarResponse" />
+  <xs:complexType name="getAllTovar">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getAllTovarResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="ns1:listOfTovar" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSumOfTovar">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getSumOfTovarResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setNewTovar">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="ns1:tovar" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setNewTovarResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="ns1:listOfTovar" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
