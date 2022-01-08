@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ba2a6b06-c496-4d7d-b7cb-4bbf7139d345": {
+      "ProjectGuid": "ba2a6b06-c496-4d7d-b7cb-4bbf7139d345",
+      "DisplayName": "RabbitMqPractice",
+      "ColorIndex": 0
+    },
+    "64f7cb8e-731f-4a3b-a637-635eee431db9": {
+      "ProjectGuid": "64f7cb8e-731f-4a3b-a637-635eee431db9",
+      "DisplayName": "TwoPart",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

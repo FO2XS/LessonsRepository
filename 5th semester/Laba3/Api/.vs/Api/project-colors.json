@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "40562fdd-19e4-4bd9-92ae-0d7b49b55b16": {
+      "ProjectGuid": "40562fdd-19e4-4bd9-92ae-0d7b49b55b16",
+      "DisplayName": "Api",
+      "ColorIndex": 0
+    },
+    "3c937a90-07a8-499a-995e-3728e20b0fa2": {
+      "ProjectGuid": "3c937a90-07a8-499a-995e-3728e20b0fa2",
+      "DisplayName": "Apiv2",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "e4d42416-a199-4e3c-8e8f-8faaeb1e9be7": {
+      "ProjectGuid": "e4d42416-a199-4e3c-8e8f-8faaeb1e9be7",
+      "DisplayName": "TestCrypt",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

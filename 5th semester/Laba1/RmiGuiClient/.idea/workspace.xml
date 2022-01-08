@@ -2,116 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c601500e-28e4-4d1d-b440-9129caf2d73b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/RmiClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/out/production/RmiClient/client/RunClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/out/production/RmiClient/operation/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/src/client/RunClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/src/operation/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/src/operation/TovarOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiClient/src/types/Tovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RmiGuiClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RmiGuiClient/base/Form.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RmiGuiClient/operation/TovarOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RmiGuiClient/types/Tovar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/AddScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/AddSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/AuthScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/AuthSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/DefaultScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/DefaultSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/GuiScene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operation/TovarOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/Tovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/.idea/libraries/postgresql_42_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/RmiProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/out/production/RmiProject/operation/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/out/production/RmiProject/operation/MessageImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/out/production/RmiProject/registration/RunServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/src/database/PgProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/src/operation/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/src/operation/MessageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/src/operation/TovarOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/src/operation/TovarOperationImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/src/registration/RunServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RmiProject/src/types/Tovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestProject/TestProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/LabaTwo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/src/operation/TovarOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/src/operation/TovarOperationImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/src/registration/PublicWS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/src/service/endpoint/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/src/service/endpoint/TovarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/src/types/ListOfTovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/src/types/Tovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwo/src/types/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/LabaTwoClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/out/production/LabaTwoClient/client/RunClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/out/production/LabaTwoClient/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/GetMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/GetMessageResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/MessageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/MessageServiceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/ObjectFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/out/production/LabaTwoClient/service/endpoint/package-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/base/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/client/RunClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/GetAllTovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/GetAllTovarResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/GetMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/GetMessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/GetSumOfTovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/GetSumOfTovarResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/MessageServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/SetNewTovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/SetNewTovarResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/TovarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/TovarServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/service/endpoint/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/types/ListOfTovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/types/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/types/Tovar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LabaTwoClient/src/types/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laba2/LabaTwo/src/database/PgProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laba3/Server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laba3/Server/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laba3/Server/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laba3/Server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laba3/Server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laba3/Server/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laba3/Server/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laba2/LabaTwo/LabaTwo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laba2/LabaTwo/LabaTwo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laba2/LabaTwo/src/operation/TovarOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laba2/LabaTwo/src/operation/TovarOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laba2/LabaTwo/src/operation/TovarOperationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laba2/LabaTwo/src/operation/TovarOperationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laba2/LabaTwo/src/registration/PublicWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laba2/LabaTwo/src/registration/PublicWS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +102,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Laby_po_Java_i_S/Лаба_2/ProgramOne" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Laba2/LabaTwoClient" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -251,6 +154,7 @@
       <updated>1640027787398</updated>
       <workItem from="1640027790166" duration="5427000" />
       <workItem from="1640198263126" duration="8107000" />
+      <workItem from="1640261022080" duration="16000" />
     </task>
     <servers />
   </component>
